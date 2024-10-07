@@ -1,20 +1,18 @@
 # lab1-web
 # Lab 1 HTML Dasar
 
-### Langkah 1: Struktur Dasar HTML
+### Langkah 1: membuat paragraf
 - Membuat file HTML dasar dengan nama `lab1_tag_dasar.html`.
-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>tag HTML Dasar</title>
 </head>
 <body>
-    <!--Ini adalah paragraf pertama--> 
     <p>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi
      Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami
      dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
      tag-tag dasar HTML.</p>
-    <!--Ini adalah paragraf kedua--> 
     <p>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang
     saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan
     menggunakan tag dasar HTML.</p> 
@@ -30,16 +28,13 @@
     <title>tag HTML Dasar</title>
 </head>
 <body>
-    <!--Ini adalah paragraf pertama--> 
     <p align="center">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi
      Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami
      dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
      tag-tag dasar HTML.</p>
-    <!--Ini adalah paragraf kedua--> 
     <p align="center">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat
      yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan
      menggunakan tag dasar html.</p> 
-
 </body>
 </html>
 
@@ -62,16 +57,12 @@
     <title>tag HTML Dasar</title>
 </head>
 <body>
-    <!--judul paragraf pertama--> 
     <h1>Belajar Dasar HTML</h1>
-    <!--paragraf pertama dengan teks diratakan di tengah-->
     <p align="center">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi
     Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami
     dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
     tag-tag dasar HTML.</p>
-    <!--judul paragraf kedua--> 
     <h2>Paragraf pada HTML</h2>
-    <!--paragraf kedua dengan teks diratakan di tengah-->
     <p align="center">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat
     yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan
     menggunakan tag dasar HTML.</p> 
@@ -93,17 +84,13 @@
     <title>Tag HTML Dasar</title>
 </head>
 <body>
-    <!--judul paragraf pertama--> 
     <h1>Belajar Dasar HTML</h1>
-    <!--paragraf pertama dengan pemformatan teks-->
     <p align="justify">
         Kami sedang belajar <mark>HTML dasar</mark>, pada mata kuliah <b>Pemrograman Web</b> di Prodi 
         <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa.</u> Pelajaran pertama yang kami dapat adalah 
         membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
     </p>
-    <!--judul paragraf kedua--> 
     <h2>Paragraf pada HTML</h2>
-    <!--paragraf kedua dengan pemformatan teks-->
     <p align="justify">
         Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung 
         sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar <b>html</b>.
@@ -132,22 +119,17 @@
     <title>Tag HTML Dasar</title>
 </head>
 <body>
-    <!--judul paragraf pertama--> 
     <h1>Belajar Dasar HTML</h1>
-    <!--paragraf pertama dengan pemformatan teks-->
     <p align="justify">
         Kami sedang belajar <mark>HTML dasar</mark>, pada mata kuliah <b>Pemrograman Web</b> di Prodi 
         <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa.</u> Pelajaran pertama yang kami dapat adalah 
         membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
     </p>
-    <!--judul paragraf kedua--> 
     <h2>Paragraf pada HTML</h2>
-    <!--paragraf kedua dengan pemformatan teks-->
     <p align="justify">
         Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung 
         sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar <b>html</b>.
     </p>
-    <!--Menambahkan Gambar-->
     <h3>Menambahkan Gambar</h3>
     <img src="image.png" title="Logo Universitas Pelita Bangsa" width="200px">
 
@@ -170,29 +152,23 @@
     <title>Tag HTML Dasar</title>
 </head>
 <body>
-    <!--menambahkan link navigasi--> 
     <nav> 
         <a href="lab1_tag_dasar.html">Dasar HTML</a> 
         <a href="lab1_halaman2.html">Halaman 2</a> 
         <a href="http://www.google.com">Halaman Web Eksternal Google</a> 
      </nav>
      <hr> 
-    <!--judul paragraf pertama--> 
     <h1>Belajar Dasar HTML</h1>
-    <!-- paragraf pertama dengan pemformatan teks -->
     <p align="justify">
         Kami sedang belajar <mark>HTML dasar</mark>, pada mata kuliah <b>Pemrograman Web</b> di Prodi 
         <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa.</u> Pelajaran pertama yang kami dapat adalah 
         membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
     </p>
-    <!--judul paragraf kedua--> 
     <h2>Paragraf pada HTML</h2>
-    <!--paragraf kedua dengan pemformatan teks-->
     <p align="justify">
         Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung 
         sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar <b>html</b>.
     </p>
-    <!--Menambahkan Gambar-->
     <h3>Menambahkan Gambar</h3>
     <img src="image.png" title="Logo Universitas Pelita Bangsa" width="200px">
 
